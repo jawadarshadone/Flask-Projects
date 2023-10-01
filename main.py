@@ -12,7 +12,6 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from sqlalchemy.orm import relationship, declarative_base, Mapped, mapped_column
 
 import forms
-# Import your forms from the forms.py
 from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
 
 app = Flask(__name__)
